@@ -1,5 +1,5 @@
 function Card(props){
-    return (<div className="card w-72  p-3 rounded-md bg-slate-700 text-white ">
+    return (<div className="card w-72 p-3 rounded-md my-1  bg-slate-700 text-white ">
         <div className="image my-2 border-slate-500 border-2 rounded-md">
         <img className="rounded-md" src={props.img} alt="" /></div>
         <p className="Title text-center font-bold">{props.name}</p>
