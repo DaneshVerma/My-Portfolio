@@ -1,12 +1,12 @@
 function Header(){
     return(
-        <div className="header bg-white h-10 w-full pt-2">
-        <nav className="w-4/5 bg-slate-700 rounded-md text-center p- mx-auto border-slate-500 border-2 text-white ">
+        <div className="header bg-white h-12 w-full pt-2">
+        <nav className="w-fit  bg-slate-700 rounded-md text-center p-1 mx-auto border-slate-500 border-2 text-white ">
           <ul className="flex mx-[2px] text-white gap-2">
-            <li className="hover:text-black hover:bg-white hover:rounded-md px-[2px]">About</li>
-            <li className="hover:text-black hover:bg-white hover:rounded-md px-[2px]">Projects</li>
-            <li className="hover:text-black hover:bg-white hover:rounded-md px-[2px]">Resume</li>
-            <li className="hover:text-black hover:bg-white hover:rounded-md px-[2px]">Contact</li>
+            <li className="hover:text-black hover:font-bold hover:bg-white hover:rounded-sm px-[2px]"><a href="#about">About</a></li>
+            <li className="hover:text-black hover:font-bold hover:bg-white hover:rounded-sm px-[2px]"><a href="#projects">Projects</a></li>
+            <li className="hover:text-black hover:font-bold hover:bg-white hover:rounded-sm px-[2px]"><a href="#resume">Resume</a></li>
+            <li className="hover:text-black hover:font-bold hover:bg-white hover:rounded-sm px-[2px]"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>

@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="box bg-slate-700 mx-4 my-2 rounded-md p-2">
         <p className="font-bold text-white text-center mb-2">Contact Me</p>
         <ul className="handels flex justify-around">

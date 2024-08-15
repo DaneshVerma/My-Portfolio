@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
    <Header/>
-      <div className="Hero bg-slate-700 text-white">
+      <div id="about" className="Hero rounded-md bg-slate-700 text-white">
         <div className="ME p-4">
           <img
             className=" rounded-full w-1/2 h-1/2 bg-white mx-auto"

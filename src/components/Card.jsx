@@ -10,7 +10,7 @@ function Card(props) {
         <p className="Description text-sm">{props.des}</p>
       </div>
       <div className="text-center my-2 pt-2">
-        <a href={props.link}><button className="bg-white text-black font-bold p-1 border-none rounded-md">
+        <a href={props.link}><button className="bg-white text-black font-semibold p-1 border-none rounded-md">
           Visit Project
         </button></a>
       </div>
