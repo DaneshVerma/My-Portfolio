@@ -1,8 +1,10 @@
 import Card from "./Card";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination'
 import 'swiper/css';
 function Projects() {
   const projects = [
@@ -35,16 +37,16 @@ function Projects() {
         <Swiper
            spaceBetween={30}
            centeredSlides={true}
-           modules={[Autoplay]}
+           modules={[Autoplay, Navigation, Pagination]}
+           loop={true}
            autoplay={{
-             delay: 2000,
-             pauseOnInteraction: false
+             delay: 2500,
+             pauseOnInteraction: true,
            }}
            pagination={{
-             clickable: true,
+             dynamicBullets: true
            }}
-           navigation={true}
-          //  modules={[Autoplay, Pagination, Navigation]}
+          //  navigation={true}
            className="mySwiper"
         >
           {projects.map((e, index) => (
