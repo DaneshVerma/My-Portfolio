@@ -1,12 +1,12 @@
 function Card(props) {
   return (
-    <div className="card min-w-72 h-[28rem] p-3 rounded-md my-1  bg-slate-700 text-white ">
+    <div className="card min-w-72  sm:h-auto md:h-[110vh] h-[28rem] p-3 rounded-md my-1  bg-slate-700 text-white ">
       <div className="image my-2 border-slate-500 border-2 rounded-md">
         <img className="rounded-md" src={props.img} alt="" />
       </div>
       <p className="Title text-center font-bold">{props.name}</p>
       <hr className="mt-2" />
-      <div className="description h-36 overflow-y-auto">
+      <div className="description h-36 md:h-28 overflow-y-auto">
         <p className="Description text-sm">{props.des}</p>
       </div>
       <div className="text-center my-2 pt-2">
