@@ -31,12 +31,7 @@ function Hero() {
               </a>
               <a href="src\assets\Resume\Resume Danesh.pdf" target="_blank" download={true}>
                 <button className="border-[1px] my-2 rounded-md px-1 md:text-2xl text-sm flex justify-center items-center">
-                  Resume
-                  <img
-                    className=""
-                    src="src\assets\Icons\download.svg"
-                    alt=""
-                  />
+                  Get Resume
                 </button>
               </a>
             </div>
