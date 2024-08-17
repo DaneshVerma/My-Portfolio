@@ -14,7 +14,7 @@ function Projects() {
       name: "Online Music Platform",
       img: "src/assets/Projects/spotesh.jpg",
       des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa beatae non voluptatibus iusto rem optio facilis cupiditate consequuntur, commodi excepturi ut laudantium iure quasi ea libero explicabo aliquid deserunt. Explicabo aliquid animi iure eum.",
-      link: "https://spotesh.freewebhostmost.com/",
+      link: "src/assets/Projects/Spotesh.jpg",
     },
     {
       name: "Blog Website",
@@ -24,25 +24,25 @@ function Projects() {
     },
     {
       name: "Link Shortner",
-      img: "src/assets/Projects/url.jpg",
+      img: "src/assets/Projects/URl.jpg",
       des: "a custom-built web application for URL shortening! Designed from scratch, a URL shortening web application crafted with Node.js, JavaScript, EJS, Express, CSS, and Axios. Leveraging the free API of cleanuri.com, this application offers a seamless solution for transforming lengthy URLs into concise, shareable links. Check out my portfolio to explore how this project combines cutting-edge technologies to simplify online link sharing.",
       link: "https://bloghost-3ehk.onrender.com/",
     },
     {
       name: "Note's Managing Web App",
-      img: "src/assets/Projects/memoManager.jpg",
+      img: "src/assets/Projects/MemoManager.jpg",
       des: "Memo's Manager, a user-friendly note-taking application that I've designed to help in efficiently creating, editing, and deleting notes. This project is a direct demonstration of my skills in full-stack development, featuring the utilization of the MERN stack (MongoDB, Express, React, Node.js) to create practical web applications.",
       link: "https://memos-manager.onrender.com/",
     },
     {
       name: "QR-code Generator Web App",
-      img: "src/assets/Projects/qr.jpg",
+      img: "src/assets/Projects/Qr.jpg",
       des: "Very simple and reliable Qr code Generator for evrey one You can use it for generating Qr code for any link Or also you can use it for any secrete, text message whatever you want.To bind that in the form of a Qr code.",
       link: "https://my-qr-734o.onrender.com/",
     },
     {
       name: "Personal Book Library",
-      img: "src/assets/Projects/bookLibrary.jpg",
+      img: "src/assets/Projects/BookLibrary.jpg",
       des: "BookLogs is a personal book catalog this project integrates public APIs, utilizes Express/Node.js for server-side programming, and demonstrates CRUD operations in a PostgreSQL database. Additional features include password verification for added security and the use of dotenv to secure unnecessary data manupulation.",
       link: "https://booklogs.onrender.com/",
     },
