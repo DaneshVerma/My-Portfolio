@@ -61,7 +61,7 @@ function Projects() {
           modules={[Autoplay, Navigation, Pagination]}
           loop={true}
           autoplay={{
-            delay: 1500,
+            delay: 2500,
             pauseOnMouseEnter: true,
           }}
           pagination={{

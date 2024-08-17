@@ -6,12 +6,12 @@ function Hero() {
       {/* <Header /> */}
       <div
         id="about"
-        className="Hero rounded-sm h-full lg:flex lg:items-center justify-center lg:h-96 bg-slate-700 sm:min-h-[100vh] text-white"
+        className="Hero h-full lg:flex lg:items-center justify-center lg:h-96 bg-slate-600 sm:min-h-[100vh] text-white"
       >
         <div className="ME sm:flex gap-3 lg:gap-10 sm:items-center sm:justify-around p-4">
           <div>
             <img
-              className=" rounded-full md:w-full sm:w-9/12 w-1/2 h-1/2 bg-white mx-auto"
+              className="rounded-full shadow-slate-950 shadow-2xl md:w-full sm:w-9/12 w-1/2 h-1/2 bg-white mx-auto"
               src="assets/Mypic.png"
               alt="My Photo"
             />
@@ -25,12 +25,12 @@ function Hero() {
             <hr />
             <div className=" flex my-2 gap-2">
               <a href="mailto:techydanesh@gmail.com">
-                <button className="border-[1px] my-2 rounded-md px-1 md:text-2xl text-sm">
+                <button className="border-[1px] my-2 rounded-md px-1 md:text-xl text-sm">
                   Contact me
                 </button>
               </a>
               <a href="assets\Resume\Resume Danesh.pdf" target="_blank" download={true}>
-                <button className="border-[1px] my-2 box-border rounded-md px-1 md:text-2xl text-sm flex justify-center items-center">
+                <button className="border-[1px] my-2 box-border rounded-md px-1 md:text-xl text-sm flex justify-center items-center">
                   Resume
                 </button>
               </a>
@@ -44,7 +44,7 @@ function Hero() {
                   understand how the digital world operates.
                 </li>
                 <li>
-                  and Through self-study and hands-on projects, I've honed my
+                  & through self-study and hands-on projects, I've honed my
                   skills With a solid foundation in both front-end and back-end
                   development, I excel in creating responsive and intuitive web
                   applications
