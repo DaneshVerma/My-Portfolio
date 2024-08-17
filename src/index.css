@@ -5,3 +5,7 @@
 .swiper-pagination-bullet-active {
     background-color: #ffffff !important;
 }
+
+*{
+    scrollbar-width: thin;
+}

@@ -14,7 +14,7 @@ function Resume() {
   },
   {
     name: "JavaScript",
-    logo: "https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg",
+    logo: "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
   },
   {
     name: "PostgreSQL",
@@ -60,8 +60,8 @@ function Resume() {
   return (
     <div id="resume" className="resume rounded-md bg-slate-700 py-2 ">
       <div className=" rounded-md bg-white mx-4 ">
-        <p className="text-center rounded-md font-bold p-2">Technologies I know</p>
-        <div className="tileContainer flex flex-wrap pb-1">
+        <p className="text-center rounded-md md:text-2xl font-bold p-2">Technologies I know</p>
+        <div className="tileContainer justify-center items-center flex flex-wrap pb-1">
           {
             skills.map((e, index)=>(
               <Tile name={e.name} logo={e.logo} key={index} />
