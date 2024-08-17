@@ -14,7 +14,7 @@ function Projects() {
       name: "Online Music Platform",
       img: "assets/Project/sp.jpg",
       des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa beatae non voluptatibus iusto rem optio facilis cupiditate consequuntur, commodi excepturi ut laudantium iure quasi ea libero explicabo aliquid deserunt. Explicabo aliquid animi iure eum.",
-      link: "src/assets/Projects/Spotesh.jpg",
+      link: "https://spotesh.freewebhostmost.com/",
     },
     {
       name: "Blog Website",
@@ -26,7 +26,7 @@ function Projects() {
       name: "Link Shortner",
       img: "assets/Project/ur.jpg",
       des: "a custom-built web application for URL shortening! Designed from scratch, a URL shortening web application crafted with Node.js, JavaScript, EJS, Express, CSS, and Axios. Leveraging the free API of cleanuri.com, this application offers a seamless solution for transforming lengthy URLs into concise, shareable links. Check out my portfolio to explore how this project combines cutting-edge technologies to simplify online link sharing.",
-      link: "https://bloghost-3ehk.onrender.com/",
+      link: "https://shortlink-zvr5.onrender.com/",
     },
     {
       name: "Note's Managing Web App",

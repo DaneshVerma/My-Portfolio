@@ -7,10 +7,10 @@ function Card(props) {
       <p className="Title text-center font-bold">{props.name}</p>
       <hr className="mt-2" />
       <div className="description sm:h-28 h-36 md:h-28  overflow-auto ">
-        <p className="Description text-sm">{props.des}</p>
+        <p className="Description lg:text-xl text-sm">{props.des}</p>
       </div>
       <div className="text-center my-2 sm:my-2 pt-2">
-        <a className="cursor-pointer" href={props.link}><button className="bg-white text-black font-semibold p-1 border-none rounded-md">
+        <a target="_blank" href={props.link}><button className="bg-white text-black font-semibold p-1 border-none rounded-md">
           Visit Project
         </button></a>
       </div>

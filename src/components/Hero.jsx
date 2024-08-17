@@ -24,14 +24,14 @@ function Hero() {
             </div>
             <hr />
             <div className=" flex my-2 gap-2">
-              <a href="#contact">
+              <a href="mailto:techydanesh@gmail.com">
                 <button className="border-[1px] my-2 rounded-md px-1 md:text-2xl text-sm">
                   Contact me
                 </button>
               </a>
               <a href="assets\Resume\Resume Danesh.pdf" target="_blank" download={true}>
-                <button className="border-[1px] my-2 rounded-md px-1 md:text-2xl text-sm flex justify-center items-center">
-                  Get Resume
+                <button className="border-[1px] my-2 box-border rounded-md px-1 md:text-2xl text-sm flex justify-center items-center">
+                  Resume
                 </button>
               </a>
             </div>
