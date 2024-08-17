@@ -24,19 +24,19 @@ function Projects() {
     },
     {
       name: "Link Shortner",
-      img: "src/assets/Project/ur.jpg",
+      img: "../src/assets/Project/ur.jpg",
       des: "a custom-built web application for URL shortening! Designed from scratch, a URL shortening web application crafted with Node.js, JavaScript, EJS, Express, CSS, and Axios. Leveraging the free API of cleanuri.com, this application offers a seamless solution for transforming lengthy URLs into concise, shareable links. Check out my portfolio to explore how this project combines cutting-edge technologies to simplify online link sharing.",
       link: "https://bloghost-3ehk.onrender.com/",
     },
     {
       name: "Note's Managing Web App",
-      img: "src/assets/Project/mm.jpg",
+      img: "./src/assets/Project/mm.jpg",
       des: "Memo's Manager, a user-friendly note-taking application that I've designed to help in efficiently creating, editing, and deleting notes. This project is a direct demonstration of my skills in full-stack development, featuring the utilization of the MERN stack (MongoDB, Express, React, Node.js) to create practical web applications.",
       link: "https://memos-manager.onrender.com/",
     },
     {
       name: "QR-code Generator Web App",
-      img: "src/assets/Project/qr.jpg",
+      img: "../src/assets/Project/qr.jpg",
       des: "Very simple and reliable Qr code Generator for evrey one You can use it for generating Qr code for any link Or also you can use it for any secrete, text message whatever you want.To bind that in the form of a Qr code.",
       link: "https://my-qr-734o.onrender.com/",
     },
