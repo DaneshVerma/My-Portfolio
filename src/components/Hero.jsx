@@ -12,7 +12,7 @@ function Hero() {
           <div>
             <img
               className=" rounded-full md:w-full sm:w-9/12 w-1/2 h-1/2 bg-white mx-auto"
-              src="./src/assets/Mypic.png"
+              src="assets/Mypic.png"
               alt="My Photo"
             />
           </div>
@@ -29,7 +29,7 @@ function Hero() {
                   Contact me
                 </button>
               </a>
-              <a href="src\assets\Resume\Resume Danesh.pdf" target="_blank" download={true}>
+              <a href="assets\Resume\Resume Danesh.pdf" target="_blank" download={true}>
                 <button className="border-[1px] my-2 rounded-md px-1 md:text-2xl text-sm flex justify-center items-center">
                   Get Resume
                 </button>

@@ -12,37 +12,37 @@ function Projects() {
   const projects = [
     {
       name: "Online Music Platform",
-      img: "/src/assets/Project/sp.jpg",
+      img: "assets/Project/sp.jpg",
       des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa beatae non voluptatibus iusto rem optio facilis cupiditate consequuntur, commodi excepturi ut laudantium iure quasi ea libero explicabo aliquid deserunt. Explicabo aliquid animi iure eum.",
       link: "src/assets/Projects/Spotesh.jpg",
     },
     {
       name: "Blog Website",
-      img: "/src/assets/Project/bloghost.jpg",
+      img: "assets/Project/bloghost.jpg",
       des: "This project serves as a simple yet functional blog management system, demonstrating the basics of web development with Node.js and Express.js. It provides users with essential features for creating, viewing, and deleting blog posts while showcasing fundamental concepts such as routing, data handling, and view rendering.",
       link: "https://bloghost-3ehk.onrender.com/",
     },
     {
       name: "Link Shortner",
-      img: "/src/assets/Project/ur.jpg",
+      img: "assets/Project/ur.jpg",
       des: "a custom-built web application for URL shortening! Designed from scratch, a URL shortening web application crafted with Node.js, JavaScript, EJS, Express, CSS, and Axios. Leveraging the free API of cleanuri.com, this application offers a seamless solution for transforming lengthy URLs into concise, shareable links. Check out my portfolio to explore how this project combines cutting-edge technologies to simplify online link sharing.",
       link: "https://bloghost-3ehk.onrender.com/",
     },
     {
       name: "Note's Managing Web App",
-      img: "/src/assets/Project/mm.jpg",
+      img: "assets/Project/mm.jpg",
       des: "Memo's Manager, a user-friendly note-taking application that I've designed to help in efficiently creating, editing, and deleting notes. This project is a direct demonstration of my skills in full-stack development, featuring the utilization of the MERN stack (MongoDB, Express, React, Node.js) to create practical web applications.",
       link: "https://memos-manager.onrender.com/",
     },
     {
       name: "QR-code Generator Web App",
-      img: "/src/assets/Project/qr.jpg",
+      img: "assets/Project/qr.jpg",
       des: "Very simple and reliable Qr code Generator for evrey one You can use it for generating Qr code for any link Or also you can use it for any secrete, text message whatever you want.To bind that in the form of a Qr code.",
       link: "https://my-qr-734o.onrender.com/",
     },
     {
       name: "Personal Book Library",
-      img: "/src/assets/Project/bl.jpg",
+      img: "assets/Project/bl.jpg",
       des: "BookLogs is a personal book catalog this project integrates public APIs, utilizes Express/Node.js for server-side programming, and demonstrates CRUD operations in a PostgreSQL database. Additional features include password verification for added security and the use of dotenv to secure unnecessary data manupulation.",
       link: "https://booklogs.onrender.com/",
     },
