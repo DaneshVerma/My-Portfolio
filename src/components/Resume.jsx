@@ -1,5 +1,7 @@
 import Tile from "./Tile";
+import "aos/dist/aos.css";
 function Resume() {
+
   const skills = [{
     name: "React",
     logo: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"

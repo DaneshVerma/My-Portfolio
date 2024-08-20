@@ -1,19 +1,19 @@
 import Card from "./Card";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination} from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css";
+
 function Projects() {
-  let slide = screen.width >768?3:1;
+  let slide = screen.width > 768 ? 3 : 1;
 
   const projects = [
     {
       name: "Online Music Platform",
       img: "assets/Project/sp.jpg",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa beatae non voluptatibus iusto rem optio facilis cupiditate consequuntur, commodi excepturi ut laudantium iure quasi ea libero explicabo aliquid deserunt. Explicabo aliquid animi iure eum.",
+      des: "A frontend clone of the Spotify web interface, built with modern web technologies. This project replicates the core features of Spotify, allowing users to browse and play MP3 files stored in a local songs folder. It showcases my ability to recreate complex UI/UX designs and implement audio playback functionality, providing an authentic music streaming experience.",
       link: "https://spotesh.freewebhostmost.com/",
     },
     {
@@ -49,11 +49,15 @@ function Projects() {
   ];
   return (
     <div id="projects" className="projects rounded-sm">
-      <div className="intro h-10 rounded-md mx-4 mt-2 p-1 md:text-2xl text-center font-bold">
+      <div data-aos="fade"  className="intro h-10 rounded-md mx-4 mt-2 p-1 md:text-2xl text-center font-bold">
         Projects i did From Scratch
       </div>
       {/* <div className="h-[28rem] flex flex-col items-center rounded-md overflow-x-auto bg-white mx-4 my-2"> */}
-      <div className=" rounded-md bg-white mx-4 my-2">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        className=" rounded-md bg-white mx-4 my-2"
+      >
         <Swiper
           spaceBetween={30}
           slidesPerView={slide}
