@@ -52,10 +52,12 @@ function Projects() {
       <div data-aos="fade"  className="intro h-10 rounded-md mx-4 mt-2 p-1 md:text-2xl text-center font-bold">
         Projects i did From Scratch
       </div>
+      <hr />
       {/* <div className="h-[28rem] flex flex-col items-center rounded-md overflow-x-auto bg-white mx-4 my-2"> */}
       <div
         data-aos="fade-up"
         data-aos-delay="300"
+        data-aos-duration="500"
         className=" rounded-md bg-white mx-4 my-2"
       >
         <Swiper
