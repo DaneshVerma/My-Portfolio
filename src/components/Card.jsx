@@ -1,6 +1,6 @@
 function Card(props) {
   return (
-    <div className="card shadow-black shadow-md sm:w-fit min-w-72  sm:h-fit md:h-auto min:h-[28rem] p-3 rounded-md my-1 ">
+    <div className="card shadow-black shadow-md sm:w-fit min-w-72  sm:h-fit md:h-auto min:h-[28rem] p-3 rounded-md my-1 h-[60vh]">
       <div className="image my-2 border-slate-500 border-2 rounded-md">
         <img className="rounded-md" src={props.img} alt="" />
       </div>
