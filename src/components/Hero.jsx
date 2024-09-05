@@ -14,9 +14,9 @@ function Hero() {
       {/* <Header /> */}
       <div
         id="about"
-        className="Hero h-[80vh] lg:min-h-[96vh] bg-slate-600 sm:min-h-[100vh] text-white"
+        className="Hero  lg:min-h-[100vh] bg-slate-600 sm:min-h-[100vh] text-white"
       >
-        <div  className="ME lg:pt-10 sm:flex gap-3 lg:gap-10 sm:items-center sm:justify-around p-4">
+        <div  className="ME lg:pt-16 sm:flex gap-3 lg:gap-10 sm:items-center sm:justify-around p-4">
           <div className="z-10"  data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1000">
             <img
               className="rounded-full shadow-slate-950 shadow-2xl md:w-full sm:w-9/12 w-1/2 h-1/2 bg-white mx-auto"

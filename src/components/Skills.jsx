@@ -14,6 +14,10 @@ function Resume() {
     logo:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
   },
   {
+    name:"Redux",
+    logo:"https://www.vectorlogo.zone/logos/js_redux/js_redux-icon.svg"
+  },
+  {
     name: "JavaScript",
     logo: "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
   },
@@ -23,7 +27,7 @@ function Resume() {
   },
   {
     name:"Express",
-    logo:"https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+    logo:"https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000"
   },
   {
     name:"TailwindCSS",
