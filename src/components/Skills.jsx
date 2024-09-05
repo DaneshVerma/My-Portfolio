@@ -63,7 +63,7 @@ function Resume() {
   }
 ]
   return (
-    <div data-aos="fade-up" data-aos-duration="500"  data-aos-delay="300" id="resume" className="resume rounded-md bg-slate-700 py-2 ">
+    <div data-aos="fade-up" data-aos-duration="500"   id="resume" className="resume rounded-md bg-slate-700 py-2 ">
       <div className=" rounded-md bg-white mx-4 ">
         <p className="text-center mb-2 rounded-md md:text-2xl font-bold p-2">Technologies I know</p>
         <div className="tileContainer justify-center items-center flex flex-wrap pb-1">
