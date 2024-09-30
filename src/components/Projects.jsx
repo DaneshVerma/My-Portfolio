@@ -11,12 +11,6 @@ function Projects() {
 
   const projects = [
     {
-      name: "Online Music Platform",
-      img: "assets/Project/sp.jpg",
-      des: "A frontend clone of the Spotify web interface, built with modern web technologies. This project replicates the core features of Spotify, allowing users to browse and play MP3 files stored in a local songs folder. It showcases my ability to recreate complex UI/UX designs and implement audio playback functionality, providing an authentic music streaming experience.",
-      link: "https://spotesh.freewebhostmost.com/",
-    },
-    {
       name: "Blog Website",
       img: "assets/Project/bloghost.jpg",
       des: "This project serves as a simple yet functional blog management system, demonstrating the basics of web development with Node.js and Express.js. It provides users with essential features for creating, viewing, and deleting blog posts while showcasing fundamental concepts such as routing, data handling, and view rendering.",
