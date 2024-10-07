@@ -55,7 +55,7 @@ function Hero() {
             >
               <p className="text-center font-bold text-black">A bit About Me</p>
               <ul>
-                <li>So I'm natively from India Chattisgarh.</li>
+                <li>So I'm natively from Chattisgarh, India.</li>
                 <li>
                   My journey into web development began with a curiosity to
                   understand how the digital world operates.
